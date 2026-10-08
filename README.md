@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ATHENA SECURITY SARL - Site Vitrine Institutionnel
 
 Site web officiel d'**ATHENA SECURITY SARL**, société de sûreté et de sécurité privée basée à Somgandé, Ouagadougou (Burkina Faso).
@@ -107,3 +108,6 @@ Conformément à la charte de rigueur professionnelle, aucune donnée non vérif
 3. **Effectif exact d'agents de sécurité** (`[À COMPLÉTER PAR LE CLIENT]`) - *Bloc Réassurance Accueil*
 4. **Numéro d'immatriculation RCCM & IFU** (`[À COMPLÉTER PAR LE CLIENT]`) - *Mentions légales*
 5. **URL exacte de la page Facebook officielle** (`[À COMPLÉTER PAR LE CLIENT]`) - *Fichier `siteConfig.ts` & Footer*
+=======
+# athena-security
+>>>>>>> dc81a0f98b5ff03a478e4692bfacec3fd4eef148
