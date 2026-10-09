@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Clock, Shield, MessageSquare } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Shield } from "lucide-react";
 import { SITE_CONFIG } from "@/data/siteConfig";
 import { SERVICES_DATA } from "@/data/servicesData";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export const Footer: React.FC = () => {
   return (
@@ -59,7 +60,7 @@ export const Footer: React.FC = () => {
                 className="w-9 h-9 bg-emerald-700 hover:bg-emerald-600 border border-emerald-600 text-white rounded-[2px] flex items-center justify-center transition-colors"
                 aria-label="Contacter ATHENA SECURITY sur WhatsApp"
               >
-                <MessageSquare className="w-4 h-4" />
+                <WhatsAppIcon className="w-4 h-4" />
               </a>
             </div>
           </div>

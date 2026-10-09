@@ -20,7 +20,6 @@ import { SITE_CONFIG } from "@/data/siteConfig";
 import { SERVICES_DATA } from "@/data/servicesData";
 import { Button } from "@/components/ui/Button";
 import { DevisForm } from "@/components/forms/DevisForm";
-import { PlaceholderNotice } from "@/components/ui/PlaceholderNotice";
 
 export default function HomePage() {
   return (
@@ -196,10 +195,6 @@ export default function HomePage() {
               <p className="text-xs text-gray-600">
                 Agents formés à la déontologie, au secourisme et aux consignes écrites.
               </p>
-              <div className="pt-1">
-                <span className="text-[11px] text-gray-500">Effectif exact :</span>
-                <PlaceholderNotice label="EFFECTIF CLIENT" inline />
-              </div>
             </div>
 
             {/* Box 3 */}
@@ -224,10 +219,6 @@ export default function HomePage() {
               <p className="text-xs text-gray-600">
                 Société légalement constituée sous la législation du Burkina Faso.
               </p>
-              <div className="pt-1">
-                <span className="text-[11px] text-gray-500">N° Agrément :</span>
-                <PlaceholderNotice label="AGRÉMENT CLIENT" inline />
-              </div>
             </div>
           </div>
         </div>

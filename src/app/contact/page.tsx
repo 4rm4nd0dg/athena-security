@@ -1,8 +1,9 @@
 import React from "react";
-import { Phone, Mail, MapPin, MessageSquare, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { SITE_CONFIG } from "@/data/siteConfig";
 import { DevisForm } from "@/components/forms/DevisForm";
 import { OpenStreetMap } from "@/components/ui/OpenStreetMap";
+import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 
 export const metadata = {
   title: "Contact & Demande de Devis | ATHENA SECURITY SARL",
@@ -79,7 +80,7 @@ export default function ContactPage() {
               {/* WhatsApp Direct Chat Box */}
               <div className="p-6 bg-emerald-900/90 text-white border-l-4 border-emerald-500 rounded-[2px] space-y-3 shadow-md">
                 <div className="flex items-center gap-3">
-                  <MessageSquare className="w-6 h-6 text-emerald-400" />
+                  <WhatsAppIcon className="w-6 h-6 text-emerald-400" />
                   <div>
                     <h3 className="font-heading text-base uppercase text-white font-bold">
                       Contact WhatsApp Officiel
@@ -96,7 +97,7 @@ export default function ContactPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 w-full py-3 px-4 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-heading uppercase tracking-wider font-bold rounded-[2px] transition-colors"
                   >
-                    <MessageSquare className="w-4 h-4" />
+                    <WhatsAppIcon className="w-4 h-4" />
                     Ouvrir la conversation WhatsApp
                   </a>
                 </div>

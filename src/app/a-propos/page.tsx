@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Shield, Award, CheckCircle2, UserCheck, Phone, ArrowRight, Lock } from "lucide-react";
 import { SITE_CONFIG } from "@/data/siteConfig";
 import { Button } from "@/components/ui/Button";
-import { PlaceholderNotice } from "@/components/ui/PlaceholderNotice";
 
 export const metadata = {
   title: "À Propos & Vision | ATHENA SECURITY SARL",
@@ -149,16 +148,16 @@ export default function AboutPage() {
                     <strong className="text-white">ATHENA SECURITY SARL</strong>
                   </div>
                   <div className="flex justify-between items-center text-gray-300">
-                    <span>Agrément Ministériel :</span>
-                    <PlaceholderNotice label="AGRÉMENT CLIENT" inline />
+                    <span>Statut Juridique :</span>
+                    <strong className="text-white">Société à Responsabilité Limitée (SARL)</strong>
                   </div>
                   <div className="flex justify-between items-center text-gray-300">
-                    <span>Année de création :</span>
-                    <PlaceholderNotice label="ANNÉE CLIENT" inline />
+                    <span>Siège Social :</span>
+                    <strong className="text-white">Somgandé, Ouagadougou</strong>
                   </div>
                   <div className="flex justify-between items-center text-gray-300">
-                    <span>Immatriculation RCCM :</span>
-                    <PlaceholderNotice label="RCCM CLIENT" inline />
+                    <span>Conformité Légale :</span>
+                    <strong className="text-white">Société de sûreté agréée</strong>
                   </div>
                 </div>
               </div>

@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import { Shield, FileText } from "lucide-react";
 import { SITE_CONFIG } from "@/data/siteConfig";
-import { PlaceholderNotice } from "@/components/ui/PlaceholderNotice";
 
 export const metadata = {
   title: "Mentions Légales | ATHENA SECURITY SARL",
@@ -42,9 +41,7 @@ export default function MentionsLegalesPage() {
             <ul className="space-y-1.5 text-xs text-gray-700">
               <li><strong>Nom commercial :</strong> ATHENA SECURITY SARL</li>
               <li><strong>Siège social :</strong> Somgandé, Ouagadougou, Burkina Faso</li>
-              <li><strong>Agrément Ministériel :</strong> <PlaceholderNotice label="AGRÉMENT CLIENT" inline /></li>
-              <li><strong>Registre du Commerce (RCCM) :</strong> <PlaceholderNotice label="RCCM CLIENT" inline /></li>
-              <li><strong>IFU (Identifiant Fiscal Unique) :</strong> <PlaceholderNotice label="IFU CLIENT" inline /></li>
+              <li><strong>Agrément & Réglementation :</strong> Entreprise Privée de Sécurité Régie par la Réglementation du Burkina Faso</li>
               <li><strong>Téléphones Infoline 24h/24 :</strong> {SITE_CONFIG.contact.phonePrimary} / {SITE_CONFIG.contact.phoneSecondary}</li>
               <li><strong>Email de contact :</strong> {SITE_CONFIG.contact.email}</li>
               <li><strong>Directeur de la Publication :</strong> Le Directeur Général d&apos;ATHENA SECURITY SARL</li>
